@@ -1,0 +1,76 @@
+<svg><!-- 336x336 -->
+  <!-- INDICATORS -->
+  <image x="0" y="0" width="336" height="336" href="bars.png" />
+  
+  <!-- STEPS -->
+  <line id="steps-bar" x1="0" y1="62" x2="100" y2="62" fill="cyan" stroke-width="3" />
+  <text id="steps" x="30" y="52"
+        font-family="System-Bold" fill="white"
+        font-size="32" font-weight="bold"
+        text-anchor="start" text-length="20"/>
+  <text x="30" y="84"
+        font-family="System-Bold" fill="white"
+        font-size="22" font-weight="bold"
+        text-anchor="start">STEPS</text>
+  
+  <!-- BATTERY -->
+  <line id="battery-bar" x1="0" y1="100%-64" x2="100" y2="100%-64" fill="yellow" stroke-width="3" />
+  <text id="battery" x="30" y="100%-34"
+        font-family="System-Bold" fill="white"
+        font-size="32" font-weight="bold"
+        text-anchor="start" text-length="20"/>
+  <text x="30" y="100%-70"
+        font-family="System-Bold" fill="white"
+        font-size="22" font-weight="bold"
+        text-anchor="start">BATT</text>
+  
+  <!-- CALORIES -->
+  <line id="calories-bar" x1="100%-120" y1="62" x2="100%-20" y2="62" fill="green" stroke-width="3" />
+  <text id="calories" x="100%-30" y="52"
+        font-family="System-Bold" fill="white"
+        font-size="32" font-weight="bold"
+        text-anchor="end" text-length="20"/>
+  <text x="100%-30" y="84"
+        font-family="System-Bold" fill="white"
+        font-size="22" font-weight="bold"
+        text-anchor="end">KCAL</text>
+  
+  <!-- HEART RATE -->
+  <line id="heart-rate-bar" x1="100%-120" y1="100%-64" x2="100%-20" y2="100%-64" fill="red" stroke-width="3" />
+  <text id="heart-rate" x="100%-30" y="100%-34"
+        font-family="System-Bold" fill="white"
+        font-size="32" font-weight="bold"
+        text-anchor="end" text-length="20"/>
+  <text x="100%-30" y="100%-70"
+        font-family="System-Bold" fill="white"
+        font-size="22" font-weight="bold"
+        text-anchor="end">BPM</text>
+  
+  <!-- DIAMOND -->
+  <image x="0" y="0" width="336" height="336" href="diamond.png" />
+  
+  <!-- CLOCK -->
+  <text id="clock" x="50%" y="50%+25"
+        font-family="System-Bold" fill="white"
+        font-size="78" font-weight="bold"
+        text-anchor="middle" text-length="20"/>
+  <text id="clock-am-pm" x="85%" y="50%+6"
+        font-family="System-Bold" fill="white"
+        font-size="22" font-weight="bold"
+        text-anchor="middle" text-length="20"/>
+  <text id="date" x="50%" y="30%"
+        font-family="System-Bold" fill="white"
+        font-size="22" font-weight="bold"
+        text-anchor="middle" text-length="20"/>
+ 
+  <!-- ACTIVE MINUTES -->
+  <text id="active-mins" x="50%" y="75%"
+        font-family="System-Bold" fill="white"
+        font-size="22" font-weight="bold"
+        text-anchor="middle" text-length="20"/>
+  
+<!--   <line x1="50%" y1="10" x2="100%-10" y2="50%" fill="white" stroke-width="5" />
+  <line x1="100%-10" y1="50%" x2="50%" y2="100%-10" fill="white" stroke-width="5" />
+  <line x1="50%" y1="10" x2="10" y2="50%" fill="white" stroke-width="5" />
+  <line x1="10" y1="50%" x2="50%" y2="100%-10" fill="white" stroke-width="5" /> -->
+</svg>

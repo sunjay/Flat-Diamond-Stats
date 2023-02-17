@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appUUID": "0045ffeb-b8b5-49b2-94e0-a342438da8eb",
+    "appType": "clockface",
+    "appDisplayName": "Flat Diamond Stats",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Flat Diamond Stats"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
